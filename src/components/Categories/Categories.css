@@ -1,0 +1,17 @@
+.categories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabs{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.tabs.active{
+    color: red;
+    text-decoration: underline red 3px;
+}
+

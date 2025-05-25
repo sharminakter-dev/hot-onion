@@ -1,0 +1,13 @@
+.hero-components{
+    background-image: url(../../images/bannerbackground.png);
+    background-size: 110% auto;
+    background-repeat: no-repeat;
+    background-position: -65px center;
+}
+
+.hero-contents{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center
+}

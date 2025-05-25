@@ -1,0 +1,165 @@
+[
+    {
+      "id": 1, 
+      "name": "Bagel and Cream Cheese",
+      "subtitle": "Classic morning favorite",
+      "description": "A toasted whole grain bagel with smooth cream cheese, served with fresh greens, tomato slices, and a boiled egg.",
+      "price": 6.99,
+      "img": "breakfast1.png",
+      "category": "breakfast"
+    },
+    {
+      "id": 2,
+      "name": "Breakfast Sandwich",
+      "subtitle": "Energy booster combo",
+      "description": "A hearty sandwich with eggs, fruits, toast, and a colorful variety of vegetables to start your day right.",
+      "price": 9.99,
+      "img": "breakfast2.png",
+      "category": "breakfast"
+    },
+    {
+      "id": 3,
+      "name": "Baked Chicken",
+      "subtitle": "Savory protein-packed meal",
+      "description": "Tender baked chicken topped with crispy bacon on a bed of seasoned veggies and creamy mashed potatoes.",
+      "price": 10.99,
+      "img": "breakfast3.png",
+      "category": "breakfast"
+    },
+    {
+      "id": 4,
+      "name": "Eggs Benedict",
+      "subtitle": "Classic egg breakfast",
+      "description": "Perfectly poached eggs on toasted muffins, layered with bacon and topped with hollandaise sauce.",
+      "price": 8.99,
+      "img": "breakfast4.png",
+      "category": "breakfast"
+    },
+    {
+      "id": 5,
+      "name": "Toast Croissant Fried Egg",
+      "subtitle": "Deluxe breakfast plate",
+      "description": "A mix of croissant toast, ham, and sunny-side-up eggs with a creamy dipping sauce.",
+      "price": 19.99,
+      "img": "breakfast5.png",
+      "category": "breakfast"
+    },
+    {
+      "id": 6,
+      "name": "Full Breakfast Fried Egg Toast Brunch",
+      "subtitle": "Affordable full plate",
+      "description": "A hearty mix of scrambled eggs, toast, sausage, and grilled tomato – perfect for brunch lovers.",
+      "price": 3.99,
+      "img": "breakfast6.png",
+      "category": "breakfast"
+    },
+    {
+      "id": 7,
+      "name": "Healthy Meal Plan",
+      "subtitle": "Nutritious & balanced",
+      "description": "Grilled chicken breast served with sautéed vegetables, fresh greens, and a tangy side of tomato dip.",
+      "price": 23.99,
+      "img": "lunch1.png",
+      "category": "lunch"
+    },
+    {
+      "id": 8,
+      "name": "Fried Chicken Bento",
+      "subtitle": "Quick lunch combo",
+      "description": "A tasty bento box with crispy fried chicken, golden fries, and creamy coleslaw.",
+      "price": 9.99,
+      "img": "lunch2.png",
+      "category": "lunch"
+    },
+    {
+      "id": 9,
+      "name": "Tarragon-Rubbed Salmon",
+      "subtitle": "Light & herby delight",
+      "description": "Pan-seared salmon rubbed with tarragon, served with sautéed greens and cherry tomatoes.",
+      "price": 6.99,
+      "img": "lunch3.png",
+      "category": "lunch"
+    },
+    {
+      "id": 10,
+      "name": "Indian Lunch",
+      "subtitle": "Desi flavors on a plate",
+      "description": "Traditional Indian lunch with curry, rice, dal, salad, and papad – all in one combo plate.",
+      "price": 8.99,
+      "img": "lunch4.png",
+      "category": "lunch"
+    },
+    {
+      "id": 11,
+      "name": "Beef Steak",
+      "subtitle": "Western lunch special",
+      "description": "Juicy grilled beef steak with rich gravy, bell peppers, cherry tomatoes, and greens.",
+      "price": 15.99,
+      "img": "lunch5.png",
+      "category": "lunch"
+    },
+    {
+      "id": 12,
+      "name": "Honey-Soy-Glazed Salmon with Peppers",
+      "subtitle": "Asian-inspired flavors",
+      "description": "Tender salmon glazed in a sweet soy sauce, served with bell peppers and fresh herbs.",
+      "price": 7.99,
+      "img": "lunch6.png",
+      "category": "lunch"
+    },
+    {
+      "id": 13,
+      "name": "Salmon with Grapefruit and Lentil Salad",
+      "subtitle": "Zesty & fresh",
+      "description": "Grilled salmon fillet paired with citrus grapefruit and lentil salad for a tangy healthy dinner.",
+      "price": 9.99,
+      "img": "dinner1.png",
+      "category": "dinner"
+    },
+    {
+      "id": 14,
+      "name": "Lemony Salmon Piccata",
+      "subtitle": "Mediterranean delight",
+      "description": "Zesty lemon-glazed salmon served on a bed of garden-fresh vegetables and herbs.",
+      "price": 10.99,
+      "img": "dinner2.png",
+      "category": "dinner"
+    },
+    {
+      "id": 15,
+      "name": "Beef Tenderloin With Quinoa Pilaf",
+      "subtitle": "Protein-rich gourmet",
+      "description": "Juicy beef tenderloin served with colorful quinoa pilaf and fresh leafy greens.",
+      "price": 12.99,
+      "img": "dinner3.png",
+      "category": "dinner"
+    },
+    {
+      "id": 16,
+      "name": "French Fries with Cheese",
+      "subtitle": "Cheesy comfort food",
+      "description": "Crispy French fries topped with melted cheese, spices, and creamy dressing.",
+      "price": 8.99,
+      "img": "dinner4.png",
+      "category": "dinner"
+    },
+    {
+      "id": 17,
+      "name": "Garlic Butter Baked Salmon",
+      "subtitle": "Simple & savory",
+      "description": "Baked salmon fillets drizzled with garlic butter and served with greens and lemon wedges.",
+      "price": 6.99,
+      "img": "dinner5.png",
+      "category": "dinner"
+    },
+    {
+      "id": 18,
+      "name": "Baked Chicken",
+      "subtitle": "Evening classic",
+      "description": "Seasoned baked chicken served with a mix of vegetables and light creamy sauce.",
+      "price": 9.99,
+      "img":"dinner6.png",
+      "category": "dinner"
+    }
+  ]
+  
