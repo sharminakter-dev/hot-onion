@@ -127,6 +127,11 @@ const PlaceOrder = () => {
                       type='text' 
                       {...register("fullName",  { required: true })} 
                       style={inpFieldstyle} disabled={isFormFilled} />
+                      <input 
+                      value={user.email}
+                      type='email' 
+                      {...register("email",  { required: true })} 
+                      style={inpFieldstyle} disabled={isFormFilled} />
                     <input 
                       placeholder="Phone Number" 
                       type='tel' 

@@ -4,6 +4,8 @@ import {
   FacebookAuthProvider, 
   getAuth, 
   GoogleAuthProvider, 
+  sendEmailVerification, 
+  sendPasswordResetEmail, 
   signInWithEmailAndPassword, 
   signInWithPopup, 
   signOut, 
@@ -32,8 +34,9 @@ export const createNewUser=(name, email, password)=>{
       error:''
     };
     // user.newUser = false; 
-    updateUserProfile(name)
-    return user
+    updateUserProfile(name);
+    varifyEmail();
+    return user;
     // ...
   })
   .catch((error) => {
@@ -65,7 +68,6 @@ export const signInUser = (email, password )=>{
     return user
   })
   .catch((error) => {
-    const errorCode = error.code;
     const errorMessage = error.message;
       const user = {
       name: '',
@@ -99,7 +101,6 @@ export const facebookSignIn = ()=>{
       error: error.message
     };
   });
-
 
 }
 
@@ -145,4 +146,27 @@ const updateUserProfile = (name)=>{
     // An error occurred
     console.log('Failed tp update user', error);
 });
+}
+
+// verify Email
+const varifyEmail = ()=>{
+  sendEmailVerification(auth.currentUser)
+  .then(() => {
+    // Email verification sent!
+    // ...
+  });
+}
+
+// reset Password
+export const resetPassword = (email)=>{
+  sendPasswordResetEmail(auth, email)
+  .then(() => {
+    // Password reset email sent!
+    // ..
+  })
+  .catch((error) => {
+    const errorCode = error.code;
+    const errorMessage = error.message;
+    // ..
+  });
 }

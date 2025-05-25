@@ -7,7 +7,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { signin, signup, toggleNewUser } from '../../redux/slice/authSlice';
 import './firebase.config';
 import './authManager'
-import { createNewUser, facebookSignIn, googlesignIn, signInUser } from './authManager';
+import { createNewUser, facebookSignIn, googlesignIn, resetPassword, signInUser } from './authManager';
 import FacebookTwoToneIcon from '@mui/icons-material/FacebookTwoTone';
 import GoogleIcon from '@mui/icons-material/Google';
 import { useLocation, useNavigate } from 'react-router';
@@ -106,10 +106,10 @@ const Auth = () => {
     }
   }
 
-
+// console.log(formData.email);
   return ( 
   <div style={{ 
-    height:'500px', 
+    height:'600px', 
     backgroundImage:`url(${bannerbackground})`,
     backgroundSize: 'cover',         // fills entire box
     backgroundPosition: 'center',    // centers the image
@@ -179,6 +179,12 @@ const Auth = () => {
             color="error"
             sx={{width:'225px'}}> { isNewUser?`sign up`:'sign in'}
           </Button>
+          {!isNewUser &&
+          <a  style={{marginTop:'10px', color:'red', textDecoration:'underline', cursor:'pointer'}}  
+           onClick={()=>{resetPassword(formData.email)}}>  
+           forgot Password?
+        </a>
+          }
         <a  style={{marginTop:'10px', color:'blue', textDecoration:'underline', cursor:'pointer'}}  
            onClick={()=>{dispatch(toggleNewUser())}}>  
            { isNewUser?'Already have an account?':'create a new account?'}
@@ -186,9 +192,6 @@ const Auth = () => {
        
         <Typography color='error' mt={2} > {user.error} </Typography>
 
-        { user.success &&
-          <Typography color='primary'>Log in success</Typography>
-        }
       </form>
       {/* hr line */}
       <div style={{
