@@ -2,12 +2,13 @@
 
 A simple food delivery web app that supports:
 
-- Firebase Email/Password Login
+- Firebase Email/Password SignUp and Login
 - Google & Facebook Login via Firebase
 - Category-wise food filtering
 - Live search by food name, category 
 - Add to cart functionality
 - Cart stored in Session Storage and Redux
+- React Hook Form manages delivery Form
 
 
 ## Tech Stack
@@ -22,6 +23,7 @@ A simple food delivery web app that supports:
 - Server: Node.js
 - Authentication: Firebase
 - Deployment: Firebase
+- React Hook Form
 - DataBase: Dummy Food Data (can connect to API later)
 
 ---
@@ -29,7 +31,7 @@ A simple food delivery web app that supports:
 ## Features
 
 ### Search
-- Search food by typing name in search input.
+- Search food by typing in search input.
 - Case-insensitive.
 - Example: typing `chick` shows `Baked Chicken`, `Fried Chicken`.
 
@@ -45,7 +47,7 @@ A simple food delivery web app that supports:
 - Also saved to sessionStorage.
 - Persists even after refresh.
 
-### 🔄 Authentication Flow
+### Authentication Flow
 
 1. **Register**: User signs up with username, email, and password.
 2. **Login**: User logs in with email and password.
@@ -62,11 +64,11 @@ A simple food delivery web app that supports:
 - Utilizes **React Hook Form** for delivery form handling 
 - Validates user input with using **React Hook Form**
 
-### States
-##  Cart State Management
-
+## States
+###  Cart State Management
 - Cart state managed with **Redux Toolkit**.
 - Users can add, remove, and update item quantities in the cart.
+- Cart data persisted in **sessionStorage**.
 
 ###  Auth State Management
 - Authentication state managed with **Redux Toolkit**.
@@ -74,13 +76,13 @@ A simple food delivery web app that supports:
 - Session Storage stores user data locally.
 - Auth state persists even after page reloads.
 
-##  Live Search State Management
+###  Live Search State Management
 
-- **Search**: Live search functionality managed with **Redux Toolkit**.
+- Live search functionality managed with **Redux Toolkit**.
 
-##  Delivery Form State Management
+###  Delivery Form State Management
 
-- **Search**:  Delivery Form informnation managed with **Redux Toolkit**.
+-  Delivery Form information managed with **Redux Toolkit**.
 
 
 
