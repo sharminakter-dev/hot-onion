@@ -86,4 +86,4 @@ A simple food delivery web app that supports:
 
 
 ##  Live Demo
-[Visit Live Site](https://sharminakter-dev.github.io/travel-guru/)
+[Visit Live Site](https://sharminakter-dev.github.io/hot-onion/)
